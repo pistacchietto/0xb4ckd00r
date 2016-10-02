@@ -1,0 +1,21 @@
+﻿Build started 02/10/2016 13:17:10.
+     1>Project "C:\Users\Master.MASTER6\Documents\GitHub\0xb4ckd00r\client\client.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt 0xb4ckd00r.c
+         0xb4ckd00r.c
+     1>0xb4ckd00r.c(67): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(283) : see declaration of 'scanf'
+     1>0xb4ckd00r.c(103): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(254) : see declaration of 'gets'
+     1>0xb4ckd00r.c(53): warning C4101: 'pi' : unreferenced local variable
+     1>0xb4ckd00r.c(52): warning C4101: 'si' : unreferenced local variable
+     1>c:\users\master.master6\documents\github\0xb4ckd00r\client\0xb4ckd00r.c(42): warning C4716: 'Escucha' : must return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Master.MASTER6\Documents\GitHub\0xb4ckd00r\client\Release\client.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Master.MASTER6\Documents\GitHub\0xb4ckd00r\client\Release\client.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Master.MASTER6\Documents\GitHub\0xb4ckd00r\client\Release\client.lib" /MACHINE:X86 /SAFESEH Release\0xb4ckd00r.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+         client.vcxproj -> C:\Users\Master.MASTER6\Documents\GitHub\0xb4ckd00r\client\Release\client.exe
+     1>Done Building Project "C:\Users\Master.MASTER6\Documents\GitHub\0xb4ckd00r\client\client.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.71

@@ -11,7 +11,8 @@
 #include <stdbool.h>
 #include <winsock2.h>
 #include <windows.h>
-
+//#pragma comment(lib32,"libws2_32.a")
+//#pragma comment(lib,"WSock32.lib")
 const char	Baner[]="\n\n         ___         _      _  _          _        _   ___    ___\n"
 					"        / _ \\ __  __| |__  | || |    ___ | | __ __| | / _ \\  / _ \\  _ __\n"
 					"       | | | |\\ \\/ /| '_ \\ | || |_  / __|| |/ // _` || | | || | | || '__|\n"
